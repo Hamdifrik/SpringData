@@ -32,6 +32,8 @@ public class Employee {
     // Constructor without arguments
     public Employee() {
     }
+
+
     public static Employee toEntity(EmployeeDto dto){
         return Employee.builder()
                 .id(dto.getId())
